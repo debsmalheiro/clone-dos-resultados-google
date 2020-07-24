@@ -1,0 +1,186 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.topo {
+    display: flex;
+    flex: 1;
+}
+
+.logo img {
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+}
+
+.pesquisa {
+    flex: 1;
+    margin-left: -180px;
+    margin-top: 25px;
+}
+
+.pesquisa input {
+    width: 650px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 50px;
+}
+.app {
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+.app img {
+    width: 20px;
+    height: 20px;
+}
+
+.usuario {
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+
+.usuario img {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+
+/* OPÇOES */
+
+.line-options {
+    margin-bottom: 2px;
+    border-bottom: 1px solid gray;
+}
+
+.options {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.options a {
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+.options a:hover {
+    border-bottom: 3px solid blue;
+    color: blue
+    
+}
+
+.container {
+    width: 700px;
+    margin-left: 200px;
+}
+
+/* APROXIMADAMENTE */
+
+.aproximadamente {
+    color: gray;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* RESULTADOS */
+
+.title {
+    color: navy;
+    font-size: 20px;
+}
+
+.title a {
+    text-decoration: none;
+}
+
+.title a:hover {
+    text-decoration: underline;
+}
+
+.url {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.text {
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/* PESQUISAS RELACIONADAS */
+
+.pesq-relacionadas {
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.esquerda {
+    display: inline; 
+}
+
+.esquerda a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.direita {
+    display: inline;
+    margin-left: 223px;
+}
+
+.direita a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+/* RODAPE */
+
+footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.rodape {
+    background-color: #f2f2f2;
+}
+
+.rodape2 {
+    border-top: 1px solid #e4e4e4;
+}
+
+.align-rodape {
+    margin-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.br {
+    color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline;
+}
+
+.local { 
+    color: gray;
+    display: inline;
+    padding-left: 50px;
+}
+
+.rodape-bottom a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 30px; 
+}
